@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background: rgb(225, 226, 228);
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  height: 6rem;
+  width: 28rem;
+  margin-top: 3rem;
+}
+
+.boton button {
+  padding: 16px;
+  width: 128px;
+  font-weight: 400;
+  font-size: 21px;
+  border-bottom: 4px solid rgba(24, 16, 16, 0.7);
+  border-right: 4px solid rgba(24, 16, 16, 0.7);
+  border-radius: 16px;
+  margin-top: 30px;
+  color: rgb(24, 16, 16);
+  text-decoration: none;
+}
+
+.boton button:active {
+  border: 1px solid rgba(24, 16, 16, 0.7);
+}
+
+.contenido {
+  display: flex;
+}
+
+.contenido img {
+  border-radius: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container p {
+  text-align: center;
+}
