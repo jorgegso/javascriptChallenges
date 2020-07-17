@@ -1,6 +1,5 @@
 var contenido = document.querySelector('#contenido')
 
-
 function traer() {
   fetch('https://randomuser.me/api/')
     .then(res => res.json())
@@ -12,7 +11,6 @@ function traer() {
         <p>Nombre: ${data.results['0'].name.last} </p>
       </div>`
     })
-
 }
 
 
