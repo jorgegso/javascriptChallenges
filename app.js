@@ -1,6 +1,6 @@
 var contenido = document.querySelector('#contenido')
 
-function traer() {
+function came() {
   fetch('https://randomuser.me/api/')
     .then(res => res.json())
     .then(data => {
